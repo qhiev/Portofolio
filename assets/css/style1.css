@@ -1,0 +1,49 @@
+@font-face {
+    font-family: font1;
+    src: url(../fonts/AdobeGothicStd-Bold.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/tt0627m_.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(../fonts/tahoma.ttf);
+}
+
+@font-face {
+    font-family: font4;
+    src: url(../fonts/lato-blackitalic.ttf)
+}
+
+@keyframes animation1{
+    0%{
+        width: 100%;
+        height: 0%;
+
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animation3 {
+    0%{
+        transform: rotate(360deg);
+        transform: scale(1);
+    }
+    100%{
+        transform: rotate(0deg);
+        transform: scale(1);
+    }
+}
